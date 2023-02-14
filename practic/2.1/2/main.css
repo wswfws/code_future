@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+
+nav{
+
+}
+
+
+main, aside{
+    display: inline-block;
+    width: 49%;
+}

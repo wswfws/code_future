@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    border: 1px solid red;
+}
+
+nav{
+
+}
+
+header{
+    font-size: 300%;
+}
+
+
+aside{
+    height: 600px;
+    display: inline-block;
+    width: 19%;
+    height: auto;
+}
+
+main{
+    height: 600px;
+    display: inline-block;
+    width:80%
+}
