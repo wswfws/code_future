@@ -1,13 +1,25 @@
-*{
-    text-align: center;
+aside{
+    border: 2px solid gray;
+    color: black;
+    width:50%;
+    min-width: 500px;
+    padding: 2px;
 }
 
-nav{
-
+div{
+    border: 2px solid gray;
+    color: black;
+    width:max-content;
+    padding: 4px;
+    margin: 4px;
+    display: inline-flex;
 }
-
-
-main, aside{
-    display: inline-block;
-    width: 49%;
+.head{
+    width:50%;
+    min-width: 500px;
+    padding: 2px;
+    margin: 0;
+    color:white;
+    background-color: gray;
+    font-size: xx-large;
 }
