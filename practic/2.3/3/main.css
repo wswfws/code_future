@@ -1,0 +1,27 @@
+nav, section, aside, footer, header, article{
+    border: 2px solid rgb(255, 5, 105);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav, section, aside{
+    display: inline-block;
+}
+
+nav{
+    width: 30%;
+    vertical-align: top;
+}
+section{
+    width: 55%;
+}
+aside{
+    width: 13%;
+    vertical-align: top;
+}
+article{
+    height: 250px;
+}
