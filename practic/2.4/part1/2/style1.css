@@ -1,0 +1,31 @@
+figure{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+
+img{
+    height: 100px;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+}
+
+#car{
+    background-color: green;
+}
+#eat{
+    background-color: yellow;
+}
+#drink{
+    background-color: orange;
+}
