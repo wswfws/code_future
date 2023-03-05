@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --orage: #FFC727;
+    --gray:#434B53;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.email-address{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+header{
+    font-size: 18px; 
+    font-weight: 400;
+    color: #ebebeb;
+    background-color: var(--orage);
+    height: 60px;
+    display: flex;
+    justify-content:space-around
+}
+.name{
+    gap:5px;
+    width:900px;
+    font-size: 30px; 
+    font-weight: 700;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    font-size: 18px; 
+    font-weight: 400;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts>figure{
+    display: flex;
+    margin:20px;
+    gap:10px;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    background-color: var(--orage);
+    font-size: 18px; 
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+nav>a{
+    color: #ebebeb;
+    margin: 20px;
+}
+nav>a:hover{
+    color: white;
+}
+
+b{
+    font-weight: 600;
+    color: var(--orage);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 814px;
+    gap:40px;
+}
+.content_text{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.content_text>h1{
+    font-size: 48px; 
+    font-weight: 700;
+    color: var(--orage);
+    text-align: center;
+    padding: 10px;
+}
+.contacts_text>p{
+    font-size: 21px; 
+    font-weight: 400;
+}
+
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 510px;
+}
+.step{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 250px;
+    height: 128px;
+}
+.step>h1{
+    justify-self: start;
+    font-size: 30px; 
+    font-weight: 700;
+    color:var(--orage);
+}
+
+.moduls{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 850px;
+    justify-content: center;
+    padding: 70px;
+}
+.moduls>h1{
+    text-align: center;
+    font-size: 36px; 
+    font-weight: 700;
+    width: 100vw;
+    margin: 30px;
+}
+
+.modul{
+    box-sizing:border-box;
+    height: 300px;
+    width: 580px;
+    box-shadow: 0 0 2px var(--gray);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+.modul>h2{
+    text-align: center;
+    font-size: 36px; 
+    font-weight: 700;
+    color: var(--orage);
+}
+.modul>p{
+    text-align: center;
+    font-size: 16px; 
+    font-weight: 400;
+    padding: 10px;
+    color:var(--gray);
+}
+
+.about{
+    height: 321px;
+    background-color: var(--orage);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.param{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    
+}
+.param>h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.feedback{
+    height: 597px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--gray);
+    font-size: 21px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+form{
+    width: 1200px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    border: var(--orage) 5px solid ;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+form>h1{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px;
+}
+.input{
+    padding: 60px;
+    gap:10px;
+}
+
+input[type="text"], input[type="email"], input[type="submit"]{
+    height: 80px;
+    width: 250px;
+    font-size: 20px;
+    border:none;
+    background-color: #f2f6fa;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: var(--orage);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+    height: 120px;
+    background-color: var(--orage);
+    color:white;
+
+    font-size: 14px;
+    font-weight: 400px;
+    
+}
+
+footer>div{
+    gap: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
